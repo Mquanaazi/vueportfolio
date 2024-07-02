@@ -1,8 +1,8 @@
 body{
   background-image: url("https://mquanaazi.github.io/huluImages/uwp4364032.webp");
   background-size: cover;
-  filter:blur()
-/* background-repeat: no-repeat; */
+  filter:blur();
+background-repeat: no-repeat;
   /* color: rgb(32, 28, 31); */
   /* opacity: 1000; */
 }
@@ -61,6 +61,15 @@ h1{
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   top:0%
+}
+#footer{
+  background-color: rgba(0, 255, 255, 0.712);
+  border-radius: 10px;
+  margin-bottom: 0%;
+  justify-content: center;
+  position:static;
+  
+ 
 }
 
 
