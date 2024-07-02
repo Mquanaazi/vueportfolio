@@ -1,7 +1,6 @@
 <template lang="">
-    <div id=footer>
+    <div id="footer">
         <footer>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
       <p>
        <button>
             <a href="https://github.com/Mquanaazi" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -21,7 +20,7 @@
             </svg></a>
           </button>
           
-      mquanaazi codes &copy; all rights reserved 2024 </P>
+      mquanaazi codes &copy; all rights reserved {{currentYear}} </P>
   </footer>
      
     </div>
@@ -37,6 +36,6 @@ export default {
 }
 </script>
 
-<style lang="">
+<style>
     
 </style>
