@@ -20,7 +20,7 @@
             </svg></a>
           </button>
           
-      mquanaazi codes &copy; all rights reserved {{currentYear}} </P>
+          mquanaazi codes &copy; all rights reserved {{ currentDate }}  </P>
   </footer>
      
     </div>
@@ -29,13 +29,16 @@
 export default {
   name: 'MyFooter',
   data() {
+    const date = new Date();
+    const formatter = new Intl.DateTimeFormat('en-ZA', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
     return {
-      currentYear: new Date().getFullYear()
+      currentDate: formatter.format(date)
     }
   }
 }
-</script>
 
-<style>
-    
-</style>
+</script>
