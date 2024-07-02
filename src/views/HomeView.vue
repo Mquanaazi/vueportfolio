@@ -18,7 +18,7 @@ export default {
 </script> -->
 <template lang="">
   <div>
-    
+    <h1>WELCOME TO MY PORTFOLIO😊</h1>
   </div>
 </template>
 <script>
@@ -27,5 +27,5 @@ export default {
 }
 </script>
 <style>
-  
+
 </style>

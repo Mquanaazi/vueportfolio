@@ -1,17 +1,19 @@
-body{
+
+#app {
   background-image: url("https://mquanaazi.github.io/huluImages/uwp4364032.webp");
   background-size: cover;
   filter:blur();
-background-repeat: no-repeat;
-  /* color: rgb(32, 28, 31); */
-  /* opacity: 1000; */
-}
-#app {
+  background-repeat: no-repeat;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #640045;
+  color: #370026;
+  margin-top: 0px;
+  min-height: 100vh;
+
+  
+
 }
 
 nav {
@@ -62,16 +64,29 @@ h1{
   font-weight: bold;
   top:0%
 }
-#footer{
+/* #footer{
   background-color: rgba(0, 255, 255, 0.712);
   border-radius: 10px;
   margin-bottom: 0%;
   justify-content: center;
   position:static;
   
- 
+  */
+/* } */
+#section{
+  background-color: rgba(219, 252, 254, 0.903);
+  border-radius: 10px;
+  justify-content: center;
+  position:sticky;
+  width: 750px;
+  text-align: center;
+  padding: 7px;
+  margin: auto;
 }
-
+/* section{
+  text-align: center;
+  justify-content: center;
+} */
 
 
 

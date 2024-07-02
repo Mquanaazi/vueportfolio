@@ -4,7 +4,7 @@
         
         
         <slot name="placeholder"></slot>
-        <h1>Name: {{ data.name }}</h1>
+        <p>Name: {{ data.name }}</p>
             <p>: github {{ data.github }}</p>
             <p>vercel: {{ data.vercel }}</p>
             <p>description: {{ data.description }}</p>
@@ -13,7 +13,7 @@
       </div> 
       <div v-else>
         <slot name="placeholder"></slot>
-        <h1>id:{{ data.id}}</h1>
+        <p>id:{{ data.id}}</p>
               <p>firstName:{{data.firstName}}</p>
               <P>lastName:{{data.lastName}}</P>
               <p>gender:{{data.gender}}</p>
@@ -35,7 +35,7 @@
   </script>
   <style scoped>
      div{
-      border:3px rgb(102, 114, 24) solid;
+      border:3px rgb(58, 0, 106) solid;
       border-radius: 10%;
       width: 300px;
       height: 450px;

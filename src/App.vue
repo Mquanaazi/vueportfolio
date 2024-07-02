@@ -1,7 +1,6 @@
 <template>
-  <nav-bar>
-    <router-view/>
-  </nav-bar>
+  <nav-bar/>
+  <router-view/>
   <footer-comp/>
 </template>
 <script>
@@ -16,4 +15,17 @@ export default {
     };
     
 </script>
+<style>
+/* #content{
+  height: 80vh;
+} */
+ #footer{
+  background-color: rgba(0, 255, 255, 0.712);
+  border-radius: 10px;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+ }
+</style>
 

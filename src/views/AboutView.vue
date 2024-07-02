@@ -1,26 +1,15 @@
 <template>
-
-  
-  <div id='content'> 
-    <about-comp/>
- 
+  <section class="text-center">
+  <div id="section" >
+    {{ $store.state.aboutMe }}
   </div>
+</section>
 </template>
+
 <script>
-import AboutComp from "../components/AboutComp.vue";
 export default {
- component: {
-  AboutComp,
+  mounted() {
+    this.$store.dispatch('getAboutMe');
   }
 }
 </script>
-<style >
-#content{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-</style>
