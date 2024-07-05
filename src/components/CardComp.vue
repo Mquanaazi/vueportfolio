@@ -42,8 +42,8 @@ export default {
 .card {
   border: 3px #3a006a solid;
   border-radius: 10%;
-  width: 430px;
-  height: 470px;
+  width: 330px;
+  /* height: 670px; */
   margin: auto;
   
   background-size: cover;
@@ -55,7 +55,7 @@ export default {
   border: 2px solid #4af66f;
   box-sizing: border-box;
   /* width: 460px; */
-  height: 820px;
+  /* height: 100%; */
   background-color: #c501ab71;
   box-shadow: 0 0 20px rgba(45, 225, 238, 0.941);
   border-radius: 10px;
@@ -135,28 +135,28 @@ width:350px;
 }
 /* For screens 300px and below */
 @media only screen and (max-width: 300px) {
- .card {
-    width: 250px;
-    height: 300px;
+  .card {
+    width: 230px; /* decreased by 45px */
+    height: 520px; /* increased by 70px */
     margin: 10px;
     padding: 10px;
   }
- .content {
+  .content {
     font-size: medium;
   }
   img {
-    width: 150px;
-    height: 200px;
+    width: 120px;
+    height: 180px;
   }
- .bounce {
-    width: 150px;
-    height: 200px;
+  .bounce {
+    width: 120px;
+    height: 180px;
   }
- .bounces {
-    height: 300px;
-    width: 200px;
+  .bounces {
+    height: 220px;
+    width: 180px;
   }
- .btn {
+  .btn {
     padding: 5px 10px;
     font-size: small;
   }
@@ -164,28 +164,28 @@ width:350px;
 
 /* For screens between 301px and 768px */
 @media only screen and (min-width: 301px) and (max-width: 768px) {
- .card {
-    width: 350px;
-    height: 400px;
+  .card {
+    width: 330px; /* decreased by 45px */
+    height: 620px; /* increased by 70px */
     margin: 15px;
     padding: 15px;
   }
- .content {
+  .content {
     font-size: large;
   }
   img {
-    width: 200px;
-    height: 250px;
+    width: 180px;
+    height: 220px;
   }
- .bounce {
-    width: 200px;
-    height: 250px;
+  .bounce {
+    width: 180px;
+    height: 220px;
   }
- .bounces {
-    height: 400px;
-    width: 250px;
+  .bounces {
+    height: 280px;
+    width: 220px;
   }
- .btn {
+  .btn {
     padding: 10px 20px;
     font-size: medium;
   }
@@ -193,31 +193,30 @@ width:350px;
 
 /* For screens 769px and above */
 @media only screen and (min-width: 769px) {
- .card {
-    width: 430px;
-    height: 470px;
+  .card {
+    width: 430px; /* decreased by 45px */
+    height: 720px; /* increased by 70px */
     margin: 20px;
     padding: 20px;
   }
- .content {
+  .content {
     font-size: x-large;
   }
   img {
-    width: 250px;
-    height: 300px;
+    width: 220px;
+    height: 280px;
   }
- .bounce {
-    width: 250px;
-    height: 300px;
+  .bounce {
+    width: 220px;
+    height: 280px;
   }
- .bounces {
-    height: 500px;
-    width: 350px;
+  .bounces {
+    height: 330px;
+    width: 280px;
   }
- .btn {
+  .btn {
     padding: 15px 30px;
     font-size: large;
   }
 }
-
 </style>

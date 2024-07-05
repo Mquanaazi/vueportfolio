@@ -37,10 +37,10 @@
     </script>
     <style scoped>
         #projects{
-            /* display: flex;
-            flex-wrap: wrap; */
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            display: flex;
+            flex-wrap: wrap;
+            /* display: grid;
+            grid-template-columns: repeat(3, 1fr); */
   height: 100%;
 
 
