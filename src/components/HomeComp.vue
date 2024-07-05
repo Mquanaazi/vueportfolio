@@ -79,4 +79,51 @@ img {
   transform: scale(1.4);
   cursor: pointer;
 }
+/* For screens 300px and below */
+@media only screen and (max-width: 300px) {
+  #container {
+    flex-direction: column;
+    margin: 20px;
+  }
+  #card {
+    width: 15rem;
+    height: 20rem;
+    margin: 5px;
+  }
+  img {
+    height: 70%;
+  }
+}
+
+/* For screens between 301px and 768px */
+@media only screen and (min-width: 301px) and (max-width: 768px) {
+  #container {
+    flex-direction: row;
+    margin: 30px;
+  }
+  #card {
+    width: 18rem;
+    height: 25rem;
+    margin: 10px;
+  }
+  img {
+    height: 75%;
+  }
+}
+
+/* For screens 769px and above */
+@media only screen and (min-width: 769px) {
+  #container {
+    flex-direction: row;
+    margin: 40px;
+  }
+  #card {
+    width: 20rem;
+    height: 30rem;
+    margin: 10px;
+  }
+  img {
+    height: 80%;
+  }
+}
 </style>
