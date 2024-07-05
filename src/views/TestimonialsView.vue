@@ -1,8 +1,7 @@
-<template lang="">
-
-        
+<template lang="">   
     <div id="testimonials">
-        <div v-for= "testimonial in testimonialData()" :key="testimonial.name">
+        <div  v-for= "testimonial in testimonialData()" :key="testimonial.name">
+            
             <card-comp :data=testimonial>
               <template #placeholder>
                 <h3>{{testimonial.firstName}}</h3>
@@ -36,6 +35,12 @@
     }
     </script>
     <style scoped>
+    #testimonials{
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
 
     </style>
    

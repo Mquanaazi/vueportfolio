@@ -36,6 +36,9 @@
     }
     </script>
     <style scoped>
-
+        #projects{
+            display: flex;
+            flex-wrap: wrap;
+            }
     </style>
    

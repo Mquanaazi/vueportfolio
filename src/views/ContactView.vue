@@ -1,8 +1,7 @@
 <template lang="">
     <div>
-        <h1>GET IN TOUCH🤳</h1>
+        <contact-comp/>
     </div>
-    <contact-comp/>
 </template>
 <script>
 import ContactComp from '@/components/ContactComp.vue';

@@ -18,11 +18,17 @@ export default {
 </script> -->
 <template lang="">
   <div>
-    <h1>WELCOME TO MY PORTFOLIO😊</h1>
+    <home-comp/>
   </div>
 </template>
 <script>
+import HomeComp from "../components/HomeComp.vue";
 export default {
+  name: "HomeView",
+  
+  components: {
+    HomeComp
+    }
   
 }
 </script>
