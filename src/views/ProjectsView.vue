@@ -1,6 +1,6 @@
 <template lang="">
 
-        
+    <div id=section>    
     <div id="projects">
         <div v-for= "project in projectData()" :key="project.name">
             <card-comp :data=project>
@@ -12,7 +12,7 @@
         </card-comp>
         </div>
     </div>
-    
+</div>
     </template>
     <script>
     import CardComp from "../components/CardComp.vue";
@@ -37,8 +37,13 @@
     </script>
     <style scoped>
         #projects{
-            display: flex;
-            flex-wrap: wrap;
-            }
+            /* display: flex;
+            flex-wrap: wrap; */
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+
+
+}
     </style>
    

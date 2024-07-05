@@ -1,5 +1,5 @@
 <template lang="">
-    <div>
+    <div id="section">
         <contact-comp/>
     </div>
 </template>
@@ -13,6 +13,11 @@ export default {
     
 }
 </script>
-<style lang="">
+<style scoped>
+#section{
+  height: 100%;
+  width:100%
+
+}
     
 </style>

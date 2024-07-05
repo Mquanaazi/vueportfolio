@@ -1,6 +1,6 @@
 <template>
   <nav-bar/>
-  <div>
+  <div id="bodysection">
     <spinner-comp-vue v-if="!contentLoaded"/> <!-- Use the spinner to load all while data is being fetched from api -->
     <router-view v-if="contentLoaded"/> <!-- Display the router view when content is fully  loaded -->
   </div>
@@ -29,12 +29,19 @@ export default {
   height: 80vh;
 } */
  #footer{
-  background-color: rgba(164, 174, 240, 0.579);
+  background-color: rgba(213, 164, 240, 0.426);
   border-radius: 10px;
   justify-content: center;
   /* position: absolute; */
-  width: 100vw;
+  width: 95vw;
+
   bottom: 0;
  }
+ #bodysection{
+  height: 100%;
+  width:95vw
+
+}
+
 </style>
 

@@ -1,4 +1,5 @@
-<template lang="">   
+<template lang="">
+<div id="section">   
     <div id="testimonials">
         <div  v-for= "testimonial in testimonialData()" :key="testimonial.name">
             
@@ -11,7 +12,7 @@
         </card-comp>
         </div>
     </div>
-    
+</div>
     </template>
     <script>
     import CardComp from "../components/CardComp.vue";
@@ -40,7 +41,12 @@
         flex-wrap: wrap; */
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        }
+     grid-gap: 1rem;
+    
+  height: 100%;
+  width:100%
+
+}
 
     </style>
    

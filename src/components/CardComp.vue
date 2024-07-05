@@ -1,5 +1,5 @@
 <template>
-  
+
   <div class="card" >
     <div class="content">
     <div v-if="data.name">
@@ -8,15 +8,8 @@
       <img :src="data.image" class="bounces">
       <p>Name: {{ data.name }}</p>
       <p>description: {{ data.description }}</p>
-      <a :href="data.github" target="_blank" class="btn">
-  GitHub
-</a>
-
-<a :href="data.vercel" target="_blank" class="btn">
-  Vercel
-</a>
-      
-      
+      <a :href="data.github" target="_blank" class="btn">GitHub</a>
+      <a :href="data.vercel" target="_blank" class="btn">Vercel</a>
       <slot></slot>
     </div>
     <div v-else>
@@ -36,6 +29,7 @@
     </div>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -46,10 +40,10 @@ export default {
 
 <style scoped>
 .card {
-  border: 3px rgb(58, 0, 106) solid;
+  border: 3px #3a006a solid;
   border-radius: 10%;
-  width: 150px;
-  height: 450px;
+  width: 430px;
+  height: 470px;
   margin: auto;
   
   background-size: cover;
@@ -60,9 +54,9 @@ export default {
   margin: 20px;
   border: 2px solid #4af66f;
   box-sizing: border-box;
-  width: 460px;
+  /* width: 460px; */
   height: 820px;
-  background-color: #f2b4ee;
+  background-color: #c501ab71;
   box-shadow: 0 0 20px rgba(45, 225, 238, 0.941);
   border-radius: 10px;
   text-align: center;
@@ -123,7 +117,7 @@ img{
   box-shadow: 0 0 30px rgba(60, 0, 43, 0.94);
 }
 .btn {
-  background-color: #9392f8be;
+  background-color: #550289be;
   color: #080000;
   padding: 10px 20px;
   border: 10px;
@@ -136,8 +130,8 @@ img{
   background-color: #3a0133;
 }
 .bounces{
-height:600px;
-width:450px;
+height:500px;
+width:350px;
 }
 
 

@@ -17,7 +17,7 @@ export default {
 }
 </script> -->
 <template lang="">
-  <div>
+  <div id=section>
     <home-comp/>
   </div>
 </template>
@@ -32,6 +32,10 @@ export default {
   
 }
 </script>
-<style>
+<style scoped>
+#section{
+  height: 100%;
+  width:100%
 
+}
 </style>

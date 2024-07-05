@@ -1,10 +1,17 @@
 body{
   background-image: url("https://mquanaazi.github.io/huluImages/uwp4364032.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter:blur();
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-color: #78018a;
+  background-position:100% ;
+  /* filter:blur(); */
   min-height: 100vh;
+ 
+  background-attachment:fixed;
+ 
+
 }
+
 #app {
   /* background-image: url("https://mquanaazi.github.io/huluImages/uwp4364032.webp");
   background-size: cover;
@@ -17,13 +24,14 @@ body{
   color: #370026;
   margin-top: 0px;
   min-height: 100vh;
+  /* min-width: 100vw; */
 
   
 
 }
 
 nav {
-  padding: 25px;
+  padding: 15px 0px 15px 0px;
 }
 
 nav a {
@@ -32,14 +40,14 @@ nav a {
   text-decoration: none;
   background-color: aqua;
   border-radius: 10px;
-  padding: 5px;
+  padding: 3px;
   border:3px rgb(237, 86, 237) solid;
 }
 nav a:hover{
   font-weight: bold;
   color: #1d0233de;
   background-color: npm rgba(230, 84, 155, 0.556);
-  padding: 5px;
+  padding: 3px;
 }
 
 nav a.router-link-exact-active {
@@ -51,7 +59,7 @@ nav a.router-link-exact-active {
 img{
     border:3px rgb(237, 86, 237) solid;
     border-radius: 10%;
-    width: 200px;
+    width: 150px;
 
     
    } 
@@ -59,7 +67,13 @@ header{
  text-align:justify;
  justify-content: space-between;
  border-radius: 10px;
- background-color: rgba(160, 8, 210, 0.777);
+ /* padding:10px; */
+ margin-left: 1rem;
+ margin-top: 1rem;
+ width: 95%;
+
+
+ background-color: rgba(174, 19, 225, 0.777);
  
 }
 h1{
@@ -81,14 +95,14 @@ h1{
   */
 /* } */
 #section{
-  background-color: rgba(219, 252, 254, 0.903);
+  background-color: rgba(255, 192, 250, 0.903);
   border-radius: 10px;
   justify-content: center;
   position:sticky;
-  width: 750px;
+  /* width: 50px; */
   text-align: center;
   padding: 7px;
-  margin: auto;
+  margin-left: 1rem;
 }
 /* section{
   text-align: center;
@@ -111,6 +125,28 @@ h1{
  animation: slide 5s infinite linear;
 } */
  
+/* For small screens */
+#footer{
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%; /* take up 90% of the screen width */
+  }
+}
 
+/* For medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .container {
+    width: 80%; /* take up 80% of the screen width */
+  }
+}
+
+/* For large screens */
+@media only screen and (min-width: 1201px) {
+  .container {
+    width: 70%; /* take up 70% of the screen width */
+  }
+}
 
 

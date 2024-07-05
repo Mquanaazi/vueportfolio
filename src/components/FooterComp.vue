@@ -47,4 +47,10 @@ svg{
   height: 25px;
   background-color: rgb(94, 2, 85);
 }
+span{
+  color:rgb(1, 0, 10);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bolder;
+
+}
 </style>
