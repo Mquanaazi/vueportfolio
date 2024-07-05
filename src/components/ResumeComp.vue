@@ -108,5 +108,73 @@ img:hover {
   transform: scale(1.4);
   cursor: pointer;
 }
+/* For screens 300px and below */
+@media only screen and (max-width: 300px) {
+  .resume-container {
+    grid-template-columns: 1fr;
+  }
+  .column {
+    padding: 10px;
+    border-width: 1px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+  img {
+    width: 50%;
+  }
+}
+
+/* For screens between 301px and 768px */
+@media only screen and (min-width: 301px) and (max-width: 768px) {
+  .resume-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .column {
+    padding: 15px;
+    border-width: 1.5px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  img {
+    width: 60%;
+  }
+}
+
+/* For screens 769px and above */
+@media only screen and (min-width: 769px) {
+  .resume-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .column {
+    padding: 20px;
+    border-width: 2px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+  img {
+    width: 70%;
+  }
+}
 </style>
 

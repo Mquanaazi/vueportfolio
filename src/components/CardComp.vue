@@ -133,6 +133,91 @@ img{
 height:500px;
 width:350px;
 }
+/* For screens 300px and below */
+@media only screen and (max-width: 300px) {
+ .card {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+  }
+ .content {
+    font-size: medium;
+  }
+  img {
+    width: 150px;
+    height: 200px;
+  }
+ .bounce {
+    width: 150px;
+    height: 200px;
+  }
+ .bounces {
+    height: 300px;
+    width: 200px;
+  }
+ .btn {
+    padding: 5px 10px;
+    font-size: small;
+  }
+}
 
+/* For screens between 301px and 768px */
+@media only screen and (min-width: 301px) and (max-width: 768px) {
+ .card {
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    padding: 15px;
+  }
+ .content {
+    font-size: large;
+  }
+  img {
+    width: 200px;
+    height: 250px;
+  }
+ .bounce {
+    width: 200px;
+    height: 250px;
+  }
+ .bounces {
+    height: 400px;
+    width: 250px;
+  }
+ .btn {
+    padding: 10px 20px;
+    font-size: medium;
+  }
+}
+
+/* For screens 769px and above */
+@media only screen and (min-width: 769px) {
+ .card {
+    width: 430px;
+    height: 470px;
+    margin: 20px;
+    padding: 20px;
+  }
+ .content {
+    font-size: x-large;
+  }
+  img {
+    width: 250px;
+    height: 300px;
+  }
+ .bounce {
+    width: 250px;
+    height: 300px;
+  }
+ .bounces {
+    height: 500px;
+    width: 350px;
+  }
+ .btn {
+    padding: 15px 30px;
+    font-size: large;
+  }
+}
 
 </style>
