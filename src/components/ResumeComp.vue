@@ -1,6 +1,6 @@
 <template>
   <div class="resume-container">
-    <div class="column" v-for="(education, index) in education" :key="index">
+    <div class="column" id="edu" v-for="(education, index) in education" :key="index">
       <h2>Education:</h2>
       
       <ul>
@@ -15,7 +15,7 @@
         </li>
       </ul>
     </div>
-    <div class="column" v-for="(skill, index) in skills" :key="index">
+    <div class="column" id="skill" v-for="(skill, index) in skills" :key="index">
       <h2>Hard Skill:</h2>
       
       <ul>
@@ -25,7 +25,7 @@
         </li>
       </ul>
     </div>
-    <div class="column" v-for="(work, index) in workExp" :key="index">
+    <div class="column" id="exp"  v-for="(work, index) in workExp" :key="index">
       <h2>Work Experience:</h2>
       
       <ul>
@@ -108,6 +108,15 @@ img:hover {
   transform: scale(1.4);
   cursor: pointer;
 }
+#edu{
+ background-color: rgb(222, 103, 182);
+}
+#skill{
+background-color: rgb(161, 54, 180);
+}
+/* #exp{
+
+} */
 /* For screens 300px and below */
 @media only screen and (max-width: 300px) {
   .resume-container {

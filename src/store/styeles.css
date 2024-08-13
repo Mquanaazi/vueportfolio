@@ -1,17 +1,15 @@
 body{
-  background-image: url("https://mquanaazi.github.io/huluImages/uwp4364032.webp");
+  background-image : url("https://mquanaazi.github.io/huluImages/uwp4364032.webp" );
   background-size:100%;
   background-repeat:no-repeat;
   background-color: #78018a;
   background-position:100% ;
-  /* filter:blur(); */
   min-height: 100vh;
- 
   background-attachment:fixed;
  
 
-}
 
+}
 #app {
   /* background-image: url("https://mquanaazi.github.io/huluImages/uwp4364032.webp");
   background-size: cover;

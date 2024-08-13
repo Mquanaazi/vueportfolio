@@ -17,10 +17,10 @@
       <!-- <div class="background" :style="{ backgroundImage: 'url(' + data.profile + ')' }"></div> -->
       <slot name="placeholder"></slot>
       <img :src="data.profile" class="bounce">
-      <p>id:{{ data.id}}</p>
-      <p>firstName:{{data.firstName}}</p>
-      <P>lastName:{{data.lastName}}</P>
-      <p>gender:{{data.gender}}</p>
+      <!-- <p>id:{{ data.id}}</p> -->
+      <p>Name:{{data.firstName}} {{data.lastName}}</p>
+      <!-- <P>lastName:{{data.lastName}}</P> -->
+      <!-- <p>gender:{{data.gender}}</p> -->
       <p>contactDetails:{{data.contactDetails}}</p>
       <P>position:{{data.position}}</P>
       <p>message:{{data.message}}</p>
@@ -85,8 +85,8 @@ div {
   position: absolute;
   top: 0;
   left: 0;
-  color:black;
-  text-shadow:2px 1px rgb(104, 230, 255);
+  color:2px 2px black;
+  text-shadow:0.5px 1px rgb(191, 193, 193);
   font-size: large;
   font-weight: bold; 
   justify-content: center;
