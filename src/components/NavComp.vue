@@ -10,7 +10,7 @@
       <router-link to="/projects">PROJECTS</router-link> | 
       <router-link to="/testimonials">TESTIMONIALS</router-link> | 
       <router-link to="/contact">CONTACTS</router-link> | 
-      <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="https://mquanaazi.github.io/huluImages/OLWETHU.MALUMLA.docx">DOWNLOAD MY CV</a>
+      <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="https://mquanaazi.github.io/huluImages/olwethu_malumla_resume.pdf">DOWNLOAD MY CV</a>
   
     </nav>
     
