@@ -1,20 +1,20 @@
 body{
-  background-image : url("https://mquanaazi.github.io/huluImages/uwp4364032.webp" );
+  /* background-image : url("https://mquanaazi.github.io/huluImages/uwp4364032.webp" ); */
   background-size:100%;
   background-repeat:no-repeat;
   background-color: #78018a;
   background-position:100% ;
   min-height: 100vh;
   background-attachment:fixed;
+
+
+
  
 
 
 }
 #app {
-  /* background-image: url("https://mquanaazi.github.io/huluImages/uwp4364032.webp");
-  background-size: cover;
-  filter:blur(); */
-  /* background-repeat: no-repeat; */
+
   font-family:  "Bona Nova SC", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,6 +30,7 @@ body{
 
 nav {
   padding: 15px 0px 15px 0px;
+  
 }
 
 nav a {
@@ -65,7 +66,7 @@ header{
  text-align:justify;
  justify-content: space-between;
  border-radius: 10px;
- /* padding:10px; */
+
  margin-left: 1rem;
  margin-top: 1rem;
  width: 95%;
@@ -83,15 +84,7 @@ h1{
   font-weight: bold;
   top:0%
 }
-/* #footer{
-  background-color: rgba(0, 255, 255, 0.712);
-  border-radius: 10px;
-  margin-bottom: 0%;
-  justify-content: center;
-  position:static;
-  
-  */
-/* } */
+
 #section{
   background-color: rgba(255, 192, 250, 0.903);
   border-radius: 10px;

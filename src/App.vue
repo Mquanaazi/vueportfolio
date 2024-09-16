@@ -25,14 +25,12 @@ export default {
 }
 </script>
 <style>
-/* #content{
-  height: 80vh;
-} */
+
  #footer{
   background-color: rgba(213, 164, 240, 0.426);
   border-radius: 10px;
   justify-content: center;
-  /* position: absolute; */
+ 
   width: 95vw;
 
   bottom: 0;
