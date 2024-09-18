@@ -1,15 +1,15 @@
 <template>
+ 
   <section>
     <div id="container">
       <div id="card" v-for="(image, index) in images" :key="index">
         <img :src="image.src" class="card-img-top" :alt="image.alt" />
         <div class="card-body">
           <h5 class="card-title">{{ image.title }}</h5>
-          <p class="card-text">{{ image.text }}</p>
+          <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="https://mquanaazi.github.io/huluImages/olwethu_malumla_resume.pdf">💫DOWNLOAD MY CV💫</a>
+          <!-- <p class="card-text">{{ image.text }}</p> -->
         </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">Last updated on 07/05/2024</small>
-        </div>
+       
       </div>
     </div>
   </section>
@@ -24,16 +24,11 @@ export default {
         {
           src: 'https://mquanaazi.github.io/huluImages/lcasnap1.jpg',
           alt: 'my picture',
-          title: 'Olwethu',
-          text: 'Hello! welcome to my profile.'
+          title: 'Olwethu Malumla',
+          text: 'Hello! welcome to my profile.Get to know me better through this portfolio'
         },
-        {
-          src: 'https://mquanaazi.github.io/huluImages/lcasnap2.jpg',
-          alt: 'my picture',
-          title: 'Malumla',
-          text: 'Get to know me better through this portfolio .'
-        }
-        // Add more images here
+        
+        
       ]
     }
   }
@@ -61,6 +56,17 @@ img {
   width: 100%;
   height: 80%;
   border-radius: 10px;
+}
+a{
+ 
+ background-color: #540447; /* Green */
+ color: #ffffff; /* White */
+ border: none;
+ padding: 10px 20px;
+ font-size: 15px;
+ cursor: pointer;
+ border-radius: 10px;
+ text-decoration:dotted;
 }
 
 @keyframes shrink-and-grow {

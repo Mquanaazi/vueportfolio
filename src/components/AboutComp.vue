@@ -2,7 +2,7 @@
 
   
     <div id='content'> 
-      <h2>GET TO KNOW THE TYPE OF A PERSON THAT I AM 😊 </h2>
+      <h2>GET TO KNOW THE TYPE OF A PERSON THAT I AM  </h2>
       
    
     </div>

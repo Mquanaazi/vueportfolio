@@ -1,6 +1,7 @@
 <template lang="">
     <div id="section">
         <contact-comp/>
+        
     </div>
 </template>
 <script>

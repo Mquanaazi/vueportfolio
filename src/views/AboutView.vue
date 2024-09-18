@@ -1,12 +1,12 @@
 <template>
-  <article>
+ 
 
     <section class="text-center">
       <div id="section" >
-        <h3>{{ $store.state.aboutMe }}</h3>
+        <h1>{{ $store.state.aboutMe }}</h1>
       </div>
     </section>
-  </article>
+  
 </template>
 
 <script>

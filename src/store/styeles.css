@@ -1,143 +1,158 @@
-body{
-  /* background-image : url("https://mquanaazi.github.io/huluImages/uwp4364032.webp" ); */
-  background-size:100%;
-  background-repeat:no-repeat;
+/* General Styling */
+body {
   background-color: #78018a;
-  background-position:100% ;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  font-family: "Bona Nova SC", serif;
+  margin: 0;
   min-height: 100vh;
-  background-attachment:fixed;
-
-
-
- 
-
-
 }
-#app {
 
-  font-family:  "Bona Nova SC", serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#app {
   text-align: center;
   color: #370026;
-  margin-top: 0px;
+  margin-top: 0;
   min-height: 100vh;
-  /* min-width: 100vw; */
-
-  
-
 }
 
+/* Navigation Styling */
 nav {
-  padding: 15px 0px 15px 0px;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: rgba(174, 19, 225, 0.777);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 nav a {
   font-weight: bold;
   color: #42012cde;
   text-decoration: none;
-  background-color: aqua;
-  border-radius: 10px;
-  padding: 3px;
-  border:3px rgb(237, 86, 237) solid;
+  background-color: #00ced1;
+  border-radius: 8px;
+  padding: 8px 12px;
+  border: 2px solid rgb(237, 86, 237);
+  margin: 0 10px;
 }
-nav a:hover{
-  font-weight: bold;
+
+nav a:hover {
   color: #1d0233de;
-  background-color: npm rgba(230, 84, 155, 0.556);
-  padding: 3px;
+  background-color: rgba(230, 84, 155, 0.556);
 }
 
 nav a.router-link-exact-active {
   color: #78018a;
   background-color: rgba(58, 191, 224, 0.623);
+  padding: 10px;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(174, 19, 225, 0.777);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  nav .hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  background-color: rgba(255, 192, 250, 0.8);
+  padding: 20px;
   border-radius: 10px;
-  padding: 5px;
-}
-img{
-    border:3px rgb(237, 86, 237) solid;
-    border-radius: 10%;
-    width: 150px;
-
-    
-   } 
-header{
- text-align:justify;
- justify-content: space-between;
- border-radius: 10px;
-
- margin-left: 1rem;
- margin-top: 1rem;
- width: 95%;
-
-
- background-color: rgba(174, 19, 225, 0.777);
- 
-}
-h1{
-  /* padding: 10px; */
-  text-align: right;
-  color: #0aedf9cf;
-  /* font-size: 30px;   */
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-  top:0%
+  margin: 20px auto;
+  max-width: 95%;
 }
 
-#section{
+/* Image Styling */
+img {
+  border: 3px solid rgb(237, 86, 237);
+  border-radius: 10%;
+  width: 150px;
+  margin: 10px 0;
+}
+
+/* Footer Styling */
+/* #footer {
+  padding: 20px;
+  background-color: rgba(58, 191, 224, 0.623);
+  text-align: center;
+  margin-top: 20px;
+} */
+
+/* Responsive Design for Section */
+#section {
   background-color: rgba(255, 192, 250, 0.903);
   border-radius: 10px;
-  justify-content: center;
-  position:sticky;
-  /* width: 50px; */
   text-align: center;
-  padding: 7px;
-  margin-left: 1rem;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 90%;
 }
-/* section{
-  text-align: center;
-  justify-content: center;
-} */
-/* @keyframes slide{
-  from{
-      transform: translateX(0);
+
+/* Media Queries for Different Screen Sizes */
+@media (max-width: 600px) {
+  header,
+  #section {
+    max-width: 95%;
+    padding: 15px;
   }
-  to{
-      transform: translateX(5);
-  }
-}
-#card{
- 
-  margin-right:0;
-  transform: scale(1.3);
- transition:1s; 
- border-radius: 10%;
- animation: slide 5s infinite linear;
-} */
- 
-/* For small screens */
-#footer{
-  margin-left: 1rem;
-}
-@media only screen and (max-width: 600px) {
-  .container {
-    width: 90%; /* take up 90% of the screen width */
+
+  h1 {
+    font-size: 1.5rem;
   }
 }
 
-/* For medium screens */
-@media only screen and (min-width: 601px) and (max-width: 1200px) {
-  .container {
-    width: 80%; /* take up 80% of the screen width */
+@media (min-width: 601px) and (max-width: 1200px) {
+  header,
+  #section {
+    max-width: 80%;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 }
 
-/* For large screens */
-@media only screen and (min-width: 1201px) {
-  .container {
-    width: 70%; /* take up 70% of the screen width */
+@media (min-width: 1201px) {
+  header,
+  #section {
+    max-width: 70%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
   }
 }
-
-

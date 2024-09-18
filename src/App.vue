@@ -1,9 +1,10 @@
 <template>
   <nav-bar/>
-  <div id="bodysection">
+  <div> </div>
+  <!-- <div id="bodysection"> -->
     <spinner-comp-vue v-if="!contentLoaded"/> <!-- Use the spinner to load all while data is being fetched from api -->
     <router-view v-if="contentLoaded"/> <!-- Display the router view when content is fully  loaded -->
-  </div>
+  <!-- </div> -->
   <footer-comp/>
 </template>
 <script>
@@ -35,11 +36,12 @@ export default {
 
   bottom: 0;
  }
- #bodysection{
+
+ /* #bodysection{
   height: 100%;
   width:95vw
 
-}
+} */
 
 </style>
 
