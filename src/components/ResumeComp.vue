@@ -1,57 +1,53 @@
 <template>
+  <h1>EDUCATION</h1>
   <div class="resume-container">
-    <div class="section">
-      <h1>EDUCATION</h1>
-      <div class="column" id="edu" v-for="(education, index) in education" :key="index">
-        <h2>Education:</h2>
-        
-        <ul>
-          <li>
-            <h3>{{ education.description }}</h3>
-            <p>Year: {{ education.year }}</p>
-            <p>Institution: {{ education.placeOfInstitution }}</p>
-            <p>Contact Name: {{ education.contact[0].name }}</p>
-            <p>Contact Details: {{ education.contact[0].contactDetails }}</p>
-            <p>Contact Position: {{ education.contact[0].position }}</p>
-            <img :src="education.image">
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="section">
-      <h1>HARD SKILLS</h1>
-      <div class="column" id="skill" v-for="(skill, index) in skills" :key="index">
-        <h2>Hard Skill:</h2>
-        
-        <ul>
-          <li>
-            <h3>{{ skill.name }}</h3>
-            <img :src="skill.url">
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="section">
-      <h1>WORK EXPERIENCE</h1>
-      <div class="column" id="exp"  v-for="(work, index) in workExp" :key="index">
-        <h2>Work Experience:</h2>
-        
-        <ul>
-          <li>
-            <h3>{{ work.placeOfWork }}</h3>
-            <p>Year: {{ work.year }}</p>
-            <p>Description: {{ work.description }}</p>
-            <p>Contact Name: {{ work.contact[0].name }}</p>
-            <p>Contact Cell: {{ work.contact[0].cell }}</p>
-            <p>Contact Position: {{ work.contact[0].position }}</p>
-            <img :src="work.image">
-          </li>
-        </ul>
-      </div>
+    <div class="column" id="edu" v-for="(education, index) in education" :key="index">
+      <ul>
+        <li>
+          <h3>{{ education.description }}</h3>
+          <p>Year: {{ education.year }}</p>
+          <p>Institution: {{ education.placeOfInstitution }}</p>
+          <p>Contact Name: {{ education.contact[0].name }}</p>
+          <p>Contact Details: {{ education.contact[0].contactDetails }}</p>
+          <p>Contact Position: {{ education.contact[0].position }}</p>
+          <img :src="education.image">
+        </li>
+      </ul>
     </div>
   </div>
+  <h1 class="mt-5">HARD SKILLS</h1>
+  <div class="resume-container">
+    <div class="column" id="skill" v-for="(skill, index) in skills" :key="index">
+      <ul>
+        <li>
+          <h3>{{ skill.name }}</h3>
+         <img :src="skill.url">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <h1 class="mt-5">WORK EXPERIENCE</h1>
+  <div class="resume-container">
+    <h1></h1>
+    <div class="column" id="exp"  v-for="(work, index) in workExp" :key="index">
+      <h2>Work Experience:</h2>
+      <ul>
+        <li>
+          <h3>{{ work.placeOfWork }}</h3>
+          <p>Year: {{ work.year }}</p>
+          <p>Description: {{ work.description }}</p>
+          <p>Contact Name: {{ work.contact[0].name }}</p>
+          <p>Contact Cell: {{ work.contact[0].cell }}</p>
+          <p>Contact Position: {{ work.contact[0].position }}</p>
+          <img :src="workExp.image">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- ////////////////////////////////////////////////////////// -->
+ 
+   
+  
 </template>
 
 <script>
@@ -124,14 +120,6 @@ img:hover {
 }
 #skill{
 background-color: rgb(161, 54, 180);
-}
-.section {
-  margin-bottom: 50px;
-}
-
-.section h1 {
-  margin-top: 0;
-  margin-bottom: 20px;
 }
 /* #exp{
 
