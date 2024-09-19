@@ -30,7 +30,7 @@
   <div class="resume-container">
     <h1></h1>
     <div class="column" id="exp"  v-for="(work, index) in workExp" :key="index">
-      <h2>Work Experience:</h2>
+      <!-- <h2>Work Experience:</h2> -->
       <ul>
         <li>
           <h3>{{ work.placeOfWork }}</h3>

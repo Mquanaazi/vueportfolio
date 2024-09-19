@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
   overflow-x: hidden;
   font-family: "Bona Nova SC", serif;
-  margin: 0;
+  margin-left: 50px;
   min-height: 100vh;
 }
 
@@ -74,12 +74,7 @@ nav ul li {
     z-index: 1;
   }
 
-  nav .hamburger {
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-  }
+ 
 
   nav ul.active {
     display: flex;
@@ -121,6 +116,132 @@ img {
   margin: 20px auto;
   max-width: 90%;
 }
+/* Media Queries for Smaller Screens */
+@media (max-width: 300px) {
+  body {
+    font-size: 0.8rem;
+    margin-left: 5%;
+    margin-top: 10%;
+    
+    
+  }
+h1{
+  font-size: 0.5rem;
+  /* position: absolute; */
+  
+  /* margin-left:200px; */
+}
+h1.typing-animation{
+  font-size:medium;
+}
+  nav {
+    padding: 10px;
+  }
+  nav a {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  header {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  img {
+    width: 100px;
+    margin: 5px 0;
+    
+    /* margin-left:200px; */
+  }
+
+  footer{
+    position:sticky;
+    background-color: #78018a;
+    /* bottom: 0; */
+  }
+  p{
+    font-size: 0.8rem;
+    margin-bottom: 56px;
+  }
+  section{
+    margin-right:55px;
+  }
+ .contact-page{
+  margin-right: 95px;
+  margin-left: 0%;
+}
+.contact-pagee{
+  margin-right: 95px;
+  margin-left: 0%;
+}
+
+  input{
+    
+    font-size: small;
+ }
+ .disabled-form{
+  width:100%;
+ } 
+ 
+  
+}
+
+@media (min-width: 301px) and (max-width: 400px) {
+  body {
+    font-size: 0.8rem;
+    margin-left: 5%;
+    margin-top: 10%;
+    
+  }
+  nav {
+    padding: 12px;
+  }
+  nav a {
+    font-size: 0.9rem;
+    padding: 7px 12px;
+  }
+  header {
+    padding: 12px;
+    font-size: 1.3rem;
+  }
+  img {
+    width: 120px;
+    margin: 7px 0;
+    /* margin-left:200px; */
+  }
+  #section {
+    padding: 12px;
+    font-size: 1.0rem;
+  }
+  footer{
+    position:sticky;
+    background-color: #78018a;
+    /* bottom: 0; */
+  }
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+  body {
+    font-size: 1.0rem;
+  }
+  nav {
+    padding: 15px;
+  }
+  nav a {
+    font-size: 1.0rem;
+    padding: 10px 15px;
+  }
+  header {
+    padding: 15px;
+    font-size: 1.5rem;
+  }
+  img {
+    width: 150px;
+    margin: 10px 0;
+  }
+  #section {
+    padding: 15px;
+    font-size: 1.1rem;
+  }
+}
 
 /* Media Queries for Different Screen Sizes */
 @media (max-width: 600px) {
@@ -128,6 +249,7 @@ img {
   #section {
     max-width: 95%;
     padding: 15px;
+    
   }
 
   h1 {

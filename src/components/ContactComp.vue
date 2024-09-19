@@ -55,7 +55,7 @@
     <p v-if="showSuccessMessage">Thank you for messaging me!</p>
   </div>
   
-  <div class="contact-page">
+  <div class="contact-pagee">
     <form class="disabled-form">
       <label for="contact-number">Contact Number:</label>
       <input type="text" id="contact-number" value="0763936097" disabled>
@@ -240,9 +240,10 @@ svg{
 }
 .disabled-form {
     margin-top: 20px;
-    background-color: #38275fc3;
+    /* background-color: #38275fc3; */
     padding: 20px;
     border: 1px solid #ccc;
+    margin-top: 40%;
   }
   .disabled-form input[type="text"], .disabled-form input[type="email"] {
     background-color: #acf4f8d5;
