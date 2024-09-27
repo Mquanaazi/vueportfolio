@@ -6,7 +6,9 @@
        <div id="content"><home-comp/></div>
     <br><br>
   </div>
+  <div id="mypara">
   <p>'Hello! welcome to my profile.Get to know me better through this portfolio'</p>
+  </div>
 </div>
 </template>
 
@@ -50,6 +52,7 @@ h1 {
 P{
   font-size: 50px;
   color: aqua;
+  margin-right:210px
 }
 #content{
   margin-left: 200px;
