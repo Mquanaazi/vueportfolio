@@ -7,7 +7,7 @@
     <br><br>
   </div>
   <div id="mypara">
-  <p>'Hello! welcome to my profile.Get to know me better through this portfolio'</p>
+  <p>'Hello! welcome to my profile.<br>Get to know me better through this portfolio'</p>
   </div>
 </div>
 </template>
@@ -41,7 +41,7 @@ export default {
 
 h1 {
   color: black;
-  font-family: monospace;
+  
   white-space: nowrap;
   overflow: hidden; /* Ensures the text stays within bounds */
   border-right: 3px solid; /* Simulate cursor */

@@ -3,7 +3,7 @@
       <p>{{ $store.state.aboutMe }}</p>
     <div class="skills-page">
       <div class="skills-list">
-      <h2>MY SOFT SKILLS</h2>
+      <h2>SOFT SKILLS</h2>
         <h5>* Fast Learner</h5>
         <h5>* Communication</h5>
         <h5>* Team Player</h5>
@@ -29,17 +29,20 @@ export default {
 .skills-container {
   display: flex;
   justify-content: center;
+  max-width: 1500px;
+ 
   padding: 40px;
   background-color: #2d0027ef;
 }
 
 .skills-page {
-  max-width: 600px;
+  max-width: 1000px;
   padding: 20px;
   color: aliceblue;
   border: 1px solid #7a0899c1;
   box-shadow: 0 0 10px rgba(91, 4, 66, 0.748);
   display: flex;
+  border-radius: 10px;
   flex-direction: column;
   align-items: center; /* Center content */
 }
@@ -57,12 +60,20 @@ h2 {
   text-align: center;
 }
 
+p {
+  color: rgb(0, 5, 9);
+  background-color: rgba(252, 77, 255, 0.682);
+  padding: 10px;
+  font-size:23px;
+
 p{
   color: rgb(0, 5, 9);
   background-color: rgba(252, 77, 255, 0.682);
   padding: 10px;
   font-size:18px;
+
   border-radius: 10px;
+  margin: 2px;
   width: 100%; /* Take full width */
 }
 

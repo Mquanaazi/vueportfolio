@@ -5,7 +5,7 @@
         <div v-for= "project in projectData()" :key="project.name">
             <card-comp :data=project>
               <template #placeholder>
-                <h3>{{project.name}}</h3>
+                
                 <!-- {{project.name}} -->
             </template> 
             
@@ -21,7 +21,7 @@
             projectData(){
                 return this.$store.state.Projects
             }
-        },
+        },825A-8B03
         computed:{
             getProjects(){
                 return this.$store.dispatch('getProjects')
