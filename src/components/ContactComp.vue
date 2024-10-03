@@ -149,6 +149,7 @@ export default {
     color:aliceblue;
     background-color: #2d0027ef;
     border: 1px solid #7a0899c1;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(91, 4, 66, 0.748);
     
   }
@@ -260,6 +261,7 @@ svg{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   gap: 20px;  
+  border-radius: 10px;
   justify-items: center;  
   align-items: start;
   padding: 20px;
@@ -284,6 +286,7 @@ input, textarea {
 @media (max-width: 768px) {
   .contact-page {
     padding: 20px;
+     border-radius: 10px;
   }
 
   input, textarea {
