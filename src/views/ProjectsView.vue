@@ -15,13 +15,14 @@
 </div>
     </template>
     <script>
+    /*es-lint disabled*/
     import CardComp from "../components/CardComp.vue";
     export default {
         methods:{
             projectData(){
                 return this.$store.state.Projects
             }
-        },825A-8B03
+        },
         computed:{
             getProjects(){
                 return this.$store.dispatch('getProjects')

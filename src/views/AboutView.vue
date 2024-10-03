@@ -63,14 +63,13 @@ h2 {
 p {
   color: rgb(0, 5, 9);
   background-color: rgba(252, 77, 255, 0.682);
-  padding: 10px;
+  
   font-size:23px;
 
-p{
   color: rgb(0, 5, 9);
   background-color: rgba(252, 77, 255, 0.682);
   padding: 10px;
-  font-size:18px;
+  
 
   border-radius: 10px;
   margin: 2px;
