@@ -21,7 +21,7 @@
             projectData(){
                 return this.$store.state.Projects
             }
-        },
+        },825A-8B03
         computed:{
             getProjects(){
                 return this.$store.dispatch('getProjects')
