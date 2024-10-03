@@ -1,6 +1,6 @@
 <template>
   <section class="skills-container">
-      <h1>{{ $store.state.aboutMe }}</h1>
+      <p>{{ $store.state.aboutMe }}</p>
     <div class="skills-page">
       <div class="skills-list">
       <h2>MY SOFT SKILLS</h2>
@@ -57,10 +57,11 @@ h2 {
   text-align: center;
 }
 
-h1 {
+p{
   color: rgb(0, 5, 9);
   background-color: rgba(252, 77, 255, 0.682);
   padding: 10px;
+  font-size:18px;
   border-radius: 10px;
   width: 100%; /* Take full width */
 }
