@@ -5,8 +5,8 @@
       <ul>
         <li>
           <h3>{{ education.description }}</h3>
-          <p>Year: {{ education.year }}</p>
-          <p>Institution: {{ education.placeOfInstitution }}</p>
+          <p>Dates: {{ education.year }}</p>
+          
           <p>Contact Name: {{ education.contact[0].name }}</p>
           <p>Contact Details: {{ education.contact[0].contactDetails }}</p>
           <p>Contact Position: {{ education.contact[0].position }}</p>
@@ -34,7 +34,7 @@
       <ul>
         <li>
           <h3>{{ work.placeOfWork }}</h3>
-          <p>Year: {{ work.year }}</p>
+          <p>Dates: {{ work.year }}</p>
           <p>Description: {{ work.description }}</p>
           <p>Contact Name: {{ work.contact[0].name }}</p>
           <p>Contact Cell: {{ work.contact[0].cell }}</p>

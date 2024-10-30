@@ -27,6 +27,7 @@ export default {
 </script>
 <style>
 
+
  #footer{
   background-color: rgba(213, 164, 240, 0.426);
   border-radius: 10px;

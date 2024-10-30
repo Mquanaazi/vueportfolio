@@ -1,9 +1,10 @@
 /* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 body {
   background-color: #78018a;
   background-attachment: fixed;
   overflow-x: hidden;
-  font-family: "Bona Nova SC", serif;
+  
   margin-left: 50px;
   min-height: 100vh;
 }
@@ -14,12 +15,12 @@ p{
   font-size:medium;
   /* margin-right: 200px; */
 }
-
 #app {
   text-align: center;
   color: #370026;
   margin-top: 0;
   min-height: 100vh;
+  font-family: "Nunito", sans-serif;
 }
 
 /* Navigation Styling */
