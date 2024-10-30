@@ -3,12 +3,10 @@
     <div id=section>    
     <div id="projects">
         <div v-for= "project in projectData()" :key="project.name">
-            <card-comp :data=project>
-              <template #placeholder>
-                <h3>{{project.name}}</h3>
-                <!-- {{project.name}} -->
-            </template> 
-            
+        <card-comp :data=project>
+            <template #placeholder>
+                <h3>{{project.name}}</h3>                
+            </template>  
         </card-comp>
         </div>
     </div>
@@ -39,8 +37,6 @@
         #projects{
             display: flex;
             flex-wrap: wrap;
-            /* display: grid;
-            grid-template-columns: repeat(3, 1fr); */
   height: 100%;
 
 

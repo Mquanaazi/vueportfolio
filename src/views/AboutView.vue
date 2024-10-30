@@ -12,6 +12,7 @@
         <h5>* Time Management</h5>
         <h5>* Creativity</h5>
         <h5>* Critical Thinking</h5>
+        <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="https://mquanaazi.github.io/huluImages/awsCertificates.pdf">💫MY AWS CERTIFICATES💫</a>
       </div>
     </div>
   </section>

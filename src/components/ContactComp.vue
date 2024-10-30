@@ -107,13 +107,6 @@ export default {
     },
     body: JSON.stringify(this.formData)
   })
-  // .then(response => {
-  //   if (response.ok) {  // Check if the response is successful
-  //     return response.json();
-  //   } else {
-  //     throw new Error('Failed to send the message');
-  //   }
-  // })
   .then(() => {
     this.showSuccessMessage = true;
     this.formData.name = '';
