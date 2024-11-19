@@ -1,14 +1,7 @@
 <template>
   <section class="skills-container">
       <p>{{ $store.state.aboutMe }}</p>
-      <p>During my time of being at Life Choices studio, I had an opportunity to attend classes at AWS and obtained a few attendance certificates, including:
-        <a class="flashing-link icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" 
-          href="https://mquanaazi.github.io/huluImages/awsCertificates.pdf">
-          click me!
-        </a>
-        <br>
-        <!-- <p>I then continued with my learning journer on CISCO and completed a few CISCO courses including:</p> -->
-      </p>
+      
     <div class="skills-page">
       <div class="skills-list">
       <h2>SOFT SKILLS</h2>
@@ -20,10 +13,38 @@
         <h5>* Time Management</h5>
         <h5>* Creativity</h5>
         <h5>* Critical Thinking</h5>
-        <!-- <a class="icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" href="https://mquanaazi.github.io/huluImages/awsCertificates.pdf">💫MY AWS CERTIFICATES💫</a> -->
+        <br>
+        <div class="achievements">
+          <h2>ACHIEVEMENTS 🥳</h2>
+
+          <a class="flashing-link icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25 text-white" 
+            href="https://mquanaazi.github.io/huluImages/awsCertificates.pdf" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-link"></i> AWS SKILLS CENTER
+          </a>
+          <br><br>
+
+          <a class="flashing-link icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25 text-white" 
+            href="https://www.credly.com/users/olwethu-malumla" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-link"></i> CISCO
+          </a>
+          <br><br>
+
+          <a class="flashing-link icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25 text-white" 
+            href="https://www.credly.com/users/olwethu-malumla.94baa29c" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-link"></i> CISCO
+          </a>
+        </div>
+       
       </div>
     </div>
   </section>
+  <!-- <p>During my time of being at Life Choices studio, I had an opportunity to attend classes at AWS and obtained a few attendance certificates, including:
+        <a class="flashing-link icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25" 
+          href="https://mquanaazi.github.io/huluImages/awsCertificates.pdf">
+          click me!
+        </a>
+        <br>
+      </p> -->
 </template>
 
 <script>
@@ -39,9 +60,9 @@ export default {
   display: flex;
   justify-content: center;
   max-width: 1500px;
- 
+ margin-right: 8px;
   padding: 40px;
-  background-color: #2d0027ef;
+  /* background-color: #2d0027ef; */
 }
 
 .skills-page {
@@ -88,6 +109,12 @@ p {
 h5 {
   margin: 10px 0;
   font-size: 1.1rem;
+}
+.achievements{
+  /* background-color: rgba(26, 3, 62, 0.322); */
+  border-radius: 10%;
+  background-size:cover;
+
 }
 
 @media (max-width: 768px) {
