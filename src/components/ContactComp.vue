@@ -236,6 +236,7 @@ svg{
     margin-top: 20px;
     /* background-color: #38275fc3; */
     padding: 20px;
+    border-radius: 8%;
     border: 1px solid #ccc;
     margin-top: 40%;
   }
@@ -258,6 +259,7 @@ svg{
   justify-items: center;  
   align-items: start;
   padding: 20px;
+
 }
 
 .contact-page {
