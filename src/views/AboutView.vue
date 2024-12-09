@@ -19,20 +19,22 @@
 
           <a class="flashing-link icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25 text-white" 
             href="https://mquanaazi.github.io/huluImages/awsCertificates.pdf" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-link"></i> AWS SKILLS CENTER
+            <i class="fas fa-link"></i>CLICK ME: AWS SKILLS CENTER
           </a>
           <br><br>
 
+          
           <a class="flashing-link icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25 text-white" 
-            href="https://www.credly.com/users/olwethu-malumla" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-link"></i> CISCO
-          </a>
-          <br><br>
-
-          <a class="flashing-link icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25 text-white" 
-            href="https://www.credly.com/users/olwethu-malumla.94baa29c" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-link"></i> CISCO
-          </a>
+          href="https://www.credly.com/users/olwethu-malumla.94baa29c" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-link"></i>CLICK ME: CISCO[0]
+        </a> 
+        
+        <br><br>
+        
+        <a class="flashing-link icon-link icon-link-hover link-success link-underline-success link-underline-opacity-25 text-white" 
+          href="https://www.credly.com/users/olwethu-malumla" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-link"></i>CLICK ME: CISCO[1]
+        </a>
         </div>
        
       </div>

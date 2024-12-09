@@ -108,12 +108,13 @@ img {
 }
 
 /* Footer Styling */
-/* #footer {
-  padding: 20px;
-  background-color: rgba(58, 191, 224, 0.623);
+#footer {
+ 
+  margin-bottom: 0%;
   text-align: center;
   margin-top: 20px;
-} */
+  /* position:sticky */
+}
 
 /* Responsive Design for Section */
 #section {
